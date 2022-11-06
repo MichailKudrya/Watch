@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    background: #CECECE;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    max-width: 1430px;
+    margin-inline: auto;
+    overflow: auto;
+}
+
+.black_watch {
+    display: flex;
+    padding: 0px 0px 0px 133px;
+    margin-inline: auto;
+}
+
+.title {
+    padding-right: 60px;
+}
+
+.mor {
+    margin: 0;
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 250px;
+    margin-top: 53px;
+    margin-bottom: 43px;
+}
+
+.description1 {
+    font-size: 32px;
+    line-height: 155%;
+    max-width: 575px;
+    font-weight: 300;
+    margin-bottom: 61px;
+
+}
+
+.buy {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 211px;
+}
+
+.buy_btn {
+    color: #ffffff;
+    border: 1px solid #000;
+    background: #000;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 29px;
+    padding: 26px 74px 30px 73px;
+    text-decoration: none;
+}
+
+.price {
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    color: #272727;
+}
+
+.photo1 {
+    position: relative;
+}
+
+.img1 {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 230px;
+}
+
+.img1_1 {
+    max-width: 408px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.popular {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 186%;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112.5%;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.photo2 {
+    text-align: center;
+    margin-top: 194px;
+    margin-bottom: 175px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.description2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    text-align: center;
+    color: #161515;
+    max-width: 531px;
+    margin-inline: auto;
+}
+
+.photo3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 132px;
+}
+
+.name2 {
+    text-align: center;
+   
+    margin-top: 100px;
+    margin-bottom: 58px;
+    
+}
+.product::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 60%;
+    height: 1px;
+    bottom: 0%;
+    left: 20%;
+    background: #000;
+}
+
+.description_end {
+    max-width: 515px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    margin-inline: auto;
+    color: #161515;
+    margin-bottom: 142px;
+}
+.det {
+    color: #BB8B5D;
+    font-weight: 500;
+}
+.product {
+    margin: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000000;
+}
