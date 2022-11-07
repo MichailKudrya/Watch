@@ -78,17 +78,15 @@ h1 {
     color: #272727;
 }
 
-.photo1 {
-    position: relative;
-}
-
 .img1 {
-    max-width: 100%;
+    position: relative;
+    max-width: 400px;
     width: 100%;
     padding-right: 230px;
 }
 
 .img1_1 {
+
     max-width: 408px;
     height: auto;
     object-fit: cover;
@@ -146,11 +144,12 @@ h2 {
 
 .name2 {
     text-align: center;
-   
+
     margin-top: 100px;
     margin-bottom: 58px;
-    
+
 }
+
 .product::before {
     position: absolute;
     content: '';
@@ -172,10 +171,12 @@ h2 {
     color: #161515;
     margin-bottom: 142px;
 }
+
 .det {
     color: #BB8B5D;
     font-weight: 500;
 }
+
 .product {
     margin: 0;
     display: inline-block;
@@ -185,4 +186,81 @@ h2 {
     font-size: 32px;
     line-height: 29px;
     color: #000000;
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 20px;
+    }
+
+    .black_watch {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .img1 {
+        padding: 0;
+        display: flex;
+        margin-inline: auto;
+    }
+
+    .img1_1 {
+        position: static;
+        margin-inline: auto;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        order: 2;
+        margin-inline: auto;
+        padding: 0px;
+    }
+
+    .mor {
+        display: none;
+    }
+
+    h1 {
+        word-break: break-word;
+        font-size: 150px;
+    }
+
+    .div1 {
+        order: 1;
+    }
+}
+
+@media (max-width:900px) {
+    body {
+        padding: 35px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .img1_1 {
+        width: 70%;
+    }
+
+    .description1 {
+        display: flex;
+        margin-inline: auto;
+        font-size: 24px
+    }
+
+    .buy {
+        margin-inline: auto;
+    }
+
+    .description2 {
+        font-size: 24px
+    }
+    .buy {
+        margin-bottom: 120px;
+    }
 }
